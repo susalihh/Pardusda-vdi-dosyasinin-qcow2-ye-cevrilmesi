@@ -20,7 +20,7 @@ sudo apt-get -y install qemu-kvm virtinst bridge-utils
 
 Vdi görüntü dosyasını içeren dizine gidilir.
 
-![Ekran Görüntüsü - 2021-10-06 13-25-39](/home/prds3/Resimler/Ekran Görüntüsü - 2021-10-06 13-25-39.png)
+![Dizin Ekranı](https://github.com/susalihh/Pardusda-vdi-dosyasinin-qcow2-ye-cevrilmesi/blob/main/vdi1.png)
 
 Qemu kullanılarak vdi qcow2 formatına dönüştürülür. Temel olarak yapılan işlem, vdi'yi ham disk görüntülerine dönüştürmektir.
 
@@ -28,5 +28,5 @@ Qemu kullanılarak vdi qcow2 formatına dönüştürülür. Temel olarak yapıla
 qemu-img convert -f vdi -O qcow2 oraclelinux01.vdi oraclelinux01.qcow2 
 ```
 
-![Ekran Görüntüsü - 2021-10-06 14-50-47](/home/prds3/Resimler/Ekran Görüntüsü - 2021-10-06 14-50-47.png)
+![](https://github.com/susalihh/Pardusda-vdi-dosyasinin-qcow2-ye-cevrilmesi/blob/main/vdi2.png)
 
